@@ -50,6 +50,8 @@ public class DogPark {
         ArrayList<Dog> dogsList = new ArrayList<>();
         dogsList.addAll(Arrays.asList(dog1, dog2, dog3) );
 
+        System.out.println(Arrays.asList(dogsList));
+
 
 
 
