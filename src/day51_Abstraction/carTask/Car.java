@@ -1,11 +1,18 @@
 package day51_Abstraction.carTask;
 
-public class Car {
+public abstract class Car {
     private  final String make;
     private final String model;
     private String color;
     private final int year;
     private double price;
+
+    public static  boolean hasWheels,hasEngine;
+
+    static {
+        hasEngine=true;
+        hasWheels=true;
+    }
 
     public String getMake() {
         return make;
@@ -56,4 +63,7 @@ public class Car {
                 ", price=" + price +
                 '}';
     }
+
+    public abstract void start();
+    public abstract void drive();
 }
