@@ -12,6 +12,7 @@ public class AmazonInc { // AmazonInc Has A tester
      //   tester.code();
      //   tester.fixBugs();
 
+        System.out.println("tester = " + tester);
         Developer developer = new Developer("Selda", 'F', 27, 12, "Java Developer", 130000);
         developer.eat("sushi");
         developer.sleep();
