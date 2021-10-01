@@ -3,7 +3,7 @@ package day19_Loops;
 public class UniqueCharacters {
 
     public static void main(String[] args) {
-        String str = "aabcc";
+        String str = "aabccDDDDFgggh";
         //String str = "aabcc";
 
         String result = "";
