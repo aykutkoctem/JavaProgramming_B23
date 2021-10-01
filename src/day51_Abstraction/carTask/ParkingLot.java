@@ -1,5 +1,7 @@
 package day51_Abstraction.carTask;
 
+import java.util.Arrays;
+
 public class ParkingLot {
     public static void main(String[] args) {
 
@@ -23,5 +25,6 @@ public class ParkingLot {
 
         Car[] cars ={toyota, audi, bmw, tesla};
         // WebDriver driver = new Chrome();
+        System.out.println(Arrays.asList(cars));
     }
 }

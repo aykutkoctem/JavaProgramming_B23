@@ -51,6 +51,7 @@ public abstract class Car {
        setColor(color);
         this.year = year;
         setPrice(price);
+
     }
 
     @Override

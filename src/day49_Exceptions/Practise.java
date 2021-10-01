@@ -18,7 +18,8 @@ public class Practise {
             e.printStackTrace();
         }
 
-
+        System.out.println("EXCEPTION IS OCCURED");
         throw new RuntimeException("EXCEPTION IS OCCURED");
+
     }
 }
